@@ -34,7 +34,7 @@ services:
 
   storefront:
     build:
-      context: ./saleor-storefront
+      context: ./saleor-storefront-sneakershop
       dockerfile: ./Dockerfile.dev
     ports:
       - 3000:3000
@@ -44,7 +44,7 @@ services:
     depends_on:
       - api
     volumes:
-      - ./saleor-storefront/:/app:cached
+      - ./saleor-storefront-sneakershop/:/app:cached
       - /app/node_modules/
     # Nginx is used to proxy SSR requests thru docker networking
     command: sh -c '(nginx &) && npm run start'
