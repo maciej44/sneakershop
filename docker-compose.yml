@@ -32,22 +32,24 @@ services:
       - DASHBOARD_URL=http://localhost:9000/
       - ALLOWED_HOSTS=localhost,api
 
-  storefront:
-    build:
-      context: ./saleor-storefront-sneakershop
-      dockerfile: ./Dockerfile.dev
-    ports:
-      - 3000:3000
-    restart: unless-stopped
-    networks:
-      - saleor-backend-tier
-    depends_on:
-      - api
-    volumes:
-      - ./saleor-storefront-sneakershop/:/app:cached
-      - /app/node_modules/
-    # Nginx is used to proxy SSR requests thru docker networking
-    command: sh -c '(nginx &) && npm run start'
+  # storefront:
+  #   build:
+  #     context: ./saleor-storefront-sneakershop
+  #     dockerfile: ./Dockerfile.dev
+  #   ports:
+  #     - 3000:3000
+  #   restart: unless-stopped
+  #   networks:
+  #     - saleor-backend-tier
+  #   depends_on:
+  #     - api
+  #   volumes:
+  #     # - ./saleor-storefront-sneakershop/:/app:cached
+  #     - ./saleor-storefront-sneakershop/:/app:cached
+  #     - /app/node_modules/
+  #     - /app/.next/
+  #   # Nginx is used to proxy SSR requests thru docker networking
+  #   command: sh -c '(nginx &) && npm run start'
 
   dashboard:
     build:
