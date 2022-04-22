@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AC+FA,AAAA,OAAO,CAAC;EACN,YAAY,EAfE,KAAK;EAgBnB,WAAW,EAfE,KAAK;CAgBnB;;ADhGD,AAAA,aAAa,CAAC;EACZ,OAAO,EAAE,IAAI;CAQd;;AATD,AAEE,aAFW,CAEX,EAAE,CAAC;EACD,WAAW,EAAE,IAAI;CAClB;;AAJH,AAME,aANW,CAMX,CAAC,CAAC;EACA,KAAK,ECJG,OAAO;CDKhB",
+    "sources": [
+        "../../saleor-storefront-sneakershop/src/account/scss/helloPrompts.scss",
+        "../../saleor-storefront-sneakershop/src/globalStyles/scss/variables.scss"
+    ],
+    "names": [],
+    "file": "helloPrompts.css"
+}

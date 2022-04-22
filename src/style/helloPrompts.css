@@ -1,0 +1,17 @@
+:export {
+  mediumScreen: 992px;
+  smallScreen: 540px;
+}
+
+.hello-prompt {
+  padding: 1rem;
+}
+
+.hello-prompt h3 {
+  font-weight: bold;
+}
+
+.hello-prompt p {
+  color: #7d7d7d;
+}
+/*# sourceMappingURL=helloPrompts.css.map */

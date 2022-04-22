@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AC+FA,AAAA,OAAO,CAAC;EACN,YAAY,EAfE,KAAK;EAgBnB,WAAW,EAfE,KAAK;CAgBnB;;AD/FE,AAAD,oBAAS,CAAC;EACR,gBAAgB,ECDR,OAAO;EDEf,OAAO,EAAE,IAAW,CAAC,CAAC;CA2BvB;;AAzBE,AAEG,2BAFI,CAEH,aAAO,CAAC;EACP,cAAc,EAAE,SAAS;EACzB,SAAS,ECeJ,MAAM;EDdX,WAAW,ECiBI,GAAG;CDhBnB;;AANJ,AAQG,2BARI,CAQH,aAAO,CAAC;EACP,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,IAAI;EAChB,aAAa,EAAE,GAAG,CAAC,KAAK,CCL1B,IAAI;EDMF,SAAS,ECKJ,IAAI;EDJT,OAAO,EAAE,MAAW,CAAC,CAAC;EACtB,KAAK,ECRP,IAAI;EDSF,cAAc,EAAE,SAAS;EACzB,WAAW,ECMI,GAAG;CDAnB;;AAtBJ,AAkBK,2BAlBE,CAQH,aAAO,AAUL,MAAM,CAAC;EACN,UAAU,EAAE,IAAI;EAChB,KAAK,ECdT,IAAI;CDeD",
+    "sources": [
+        "../../saleor-storefront-sneakershop/src/views/Search/scss/index.scss",
+        "../../saleor-storefront-sneakershop/src/globalStyles/scss/variables.scss"
+    ],
+    "names": [],
+    "file": "index.css"
+}

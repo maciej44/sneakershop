@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AA+FA,AAAA,OAAO,CAAC;EACN,YAAY,EAfE,KAAK;EAgBnB,WAAW,EAfE,KAAK;CAgBnB",
+    "sources": [
+        "../../saleor-storefront-sneakershop/src/globalStyles/scss/variables.scss"
+    ],
+    "names": [],
+    "file": "variables.css"
+}

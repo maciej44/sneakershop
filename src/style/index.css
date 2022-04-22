@@ -1,0 +1,34 @@
+:export {
+  mediumScreen: 992px;
+  smallScreen: 540px;
+}
+
+.search-page__header {
+  background-color: #190c4e;
+  padding: 4rem 0;
+}
+
+.search-page__header__input .input__label {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.search-page__header__input .input__field {
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-bottom: 1px solid #fff;
+  font-size: 4rem;
+  padding: 0.5rem 0;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.search-page__header__input .input__field:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #fff;
+}
+/*# sourceMappingURL=index.css.map */
