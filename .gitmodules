@@ -4,6 +4,6 @@
 [submodule "saleor-storefront-sneakershop"]
 	path = saleor-storefront-sneakershop
 	url = https://github.com/maciej44/saleor-storefront-sneakershop.git
-[submodule "saleor-fork"]
-	path = saleor-fork
-	url = https://github.com/maciej44/saleor-fork.git
+[submodule "saleor"]
+	path = saleor
+	url = https://github.com/maciej44/saleor.git
