@@ -1,9 +1,9 @@
-[submodule "saleor-dashboard"]
-	path = saleor-dashboard
-	url = https://github.com/saleor/saleor-dashboard.git
 [submodule "saleor-storefront-sneakershop"]
 	path = saleor-storefront-sneakershop
 	url = https://github.com/maciej44/saleor-storefront-sneakershop.git
 [submodule "saleor"]
 	path = saleor
 	url = https://github.com/maciej44/saleor.git
+[submodule "saleor-dashboard"]
+	path = saleor-dashboard
+	url = https://github.com/maciej44/saleor-dashboard.git
