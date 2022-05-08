@@ -9,6 +9,7 @@ services:
       dockerfile: ./Dockerfile
       args:
         STATIC_URL: "/static/"
+        DEBUG: "True"
     restart: unless-stopped
     networks:
       - saleor-backend-tier
@@ -82,6 +83,7 @@ services:
       dockerfile: ./Dockerfile
       args:
         STATIC_URL: "/static/"
+        DEBUG: "True"
     command: celery -A saleor --app=saleor.celeryconf:app worker --loglevel=info
     restart: unless-stopped
     networks:
