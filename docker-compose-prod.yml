@@ -20,14 +20,10 @@ services:
     depends_on: 
       - api
     command: "/bin/sh -c 'while :; do sleep 6h & wait $${!}; nginx -s reload; done & nginx -g \"daemon off;\"'"
-    networks:  # <-- here
+    networks:  # <-- add to network
       - saleor-backend-tier
 
   api:
-    # ports:
-    #   - 8000:8000
-    # expose:
-    #   - 8000
     build:
       context: ./saleor
       dockerfile: ./Dockerfile
